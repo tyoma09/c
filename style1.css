@@ -1,0 +1,81 @@
+.pole{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 500px;
+	background: gray;
+}
+
+.igrok{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	font-size: 50px;
+}
+
+.bomba{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	background: black;
+	border-radius:  25px;
+}
+
+.moneta{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 500px;
+	background: yellowgreen;
+	border-radius: 25px;
+}
+
+.kamen{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	background: gray;
+}
+
+.moneta{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 500px;
+	background: yellowgreen;
+	border-radius: 25px;
+}
+
+.vzryv_horizontal{
+	display: none;
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	background: white;
+	border-radius: 10px;
+	z-index: 10;
+}
+
+.vzryv_vertical{
+display: none;
+	position: absolute;
+	width: 20px;
+	height: 150px;
+	background: white;
+	border-radius: 10px;
+	z-index: 10;
+}
